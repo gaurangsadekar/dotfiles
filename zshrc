@@ -1,5 +1,6 @@
 export PATH=$PATH:~/Library/Python/3.9/bin
 
+alias vz='vim ~/.zshrc'
 alias python='python3'
 
 export JAVA_HOME=~/Downloads/OpenJDK-21.jdk/Contents/Home
@@ -43,3 +44,5 @@ activate_venv() {
 
 # custom global npm_modules directory
 export PATH=~/.npm-global/bin:$PATH
+
+export SPARK_HOME=/opt/homebrew/bin/spark
